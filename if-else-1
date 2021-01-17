@@ -1,0 +1,18 @@
+//posetive and negetive value
+#include<bits/stdc++.h>
+#include<iostream>
+using namespace std;
+
+int num;
+cout<<"Enter any from your keybord:\n";
+cin>>num;
+
+if(num>0)
+{
+  cout<<num<<" is Posative\n";
+}
+else{
+  cout<<num<<" is negetive\n";
+}
+return 0 ;
+}
