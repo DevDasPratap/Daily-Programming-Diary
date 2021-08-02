@@ -19,14 +19,18 @@ if(gender == 'M' || gender == 'm'){
     cout<<" Adult";
   }
   }
-  if(gender == 'F' || gender == 'f'){
+  else if(gender == 'F' || gender == 'f'){
     cout<<"Female ";
-  }
-  if(age < 18 ){
+    if(age < 18 ){
     cout<<"Kid";
   }
   else{
     cout<<"Adult";
+  }
+  }
+  
+  else{
+    cout<<"You enter invalid Gender";
   }
 
     return 0;
