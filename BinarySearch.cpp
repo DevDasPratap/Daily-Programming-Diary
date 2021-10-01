@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>  
 using namespace std;
-
+//First sort list of array ex: [10,20,30, 40] Not like: [10,30, 50, 90, 40]
 int binarySearch(int arr[], int num, int key){
   int startPoint=0, endPoint=num;
   while(startPoint<=endPoint){
