@@ -17,7 +17,7 @@ int binarySearch(int arr[], int num, int key){
 }
 int main()  
 {
-  int no, sum=0;
+  int no;
   cout<<"Enter size of array: ";
   cin>>no;
   int arr[no];
