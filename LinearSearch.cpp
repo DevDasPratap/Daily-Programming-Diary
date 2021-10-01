@@ -12,7 +12,7 @@ int linearSearch(int arr[], int n, int key){
 int main()  
 {
   int no, sum=0;
-  cout<<"Enter no of array: ";
+  cout<<"Enter size of array: ";
   cin>>no;
   int arr[no];
   for(int i=0; i<=no; i++){
