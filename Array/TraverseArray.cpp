@@ -4,13 +4,13 @@ using namespace std;
 int main(){
     int no;
     cout<<"Enter arr size: ";
-    cin>>no;
-    int arr[no];
-    for(int i=0; i<=no; i++){
+    cin>>size;
+    int arr[size];
+    for(int i=0; i<=size; i++){
         cout<<"Enter array element: ";
         cin>>arr[i];
     }
-    for(int j=0; j<=no; j++){
+    for(int j=0; j<=size; j++){
         cout<<"Array index "<<j<<" element is: "<<arr[j]<<endl;
     }
     return 0;
