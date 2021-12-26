@@ -7,7 +7,7 @@ int main(){
     cin>>size;
     int arr[size];
     int i;
-    for(i=0; i<size; i++){
+    for(i=0; i<size; i++){ 
         cout<<"Enter array element: ";
         cin>>arr[i];
     }
@@ -19,10 +19,10 @@ int main(){
     
         for(i=size; i>=position; i--)
         {
-            arr[i] = arr[i-1];
+            arr[i+1]=arr[i];
         }
         size++;
-        arr[position-1] = newArrElement;
+        arr[position] = newArrElement;
 
     cout<<"The New Array is: "<<endl;
     for(int i=0; i<size; i++){
