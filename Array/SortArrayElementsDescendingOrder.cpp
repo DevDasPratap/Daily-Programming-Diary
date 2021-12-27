@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
+//selection sorting array in descending order c++
 int main(){
     int size;
     cout<<"Enter arr size: ";
