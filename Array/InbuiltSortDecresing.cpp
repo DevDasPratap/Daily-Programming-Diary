@@ -2,6 +2,7 @@
 #include <algorithm>
 using namespace std;
 bool sortCompare(int a, int b){
+    cout<<"Sort comparing ["<<a<<"] and ["<<b<<"]"<<endl;
     return a>b;
 }
 int main(){
@@ -9,7 +10,7 @@ int main(){
     cout<<"Enter array size: ";
     cin>>size;
     int arr[size];
-    for(int i=0; i<size; i++){
+    for(int i=0; i<size; i++){  
         cout<<"Enter index ["<<i<<"] element: ";
         cin>>arr[i];
     }
