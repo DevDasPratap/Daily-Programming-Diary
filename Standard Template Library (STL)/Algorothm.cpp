@@ -38,5 +38,10 @@ using namespace std;
         cout<<i<<" ";
     }
 
+    sort(v.begin(), v.end());
+    cout<<"After sorting: "<<endl;
+        for(int i:v){
+            cout<<i<<" ";
+        }cout<<endl;
      return 0;
  }
