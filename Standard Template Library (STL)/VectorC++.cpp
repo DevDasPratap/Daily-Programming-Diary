@@ -15,9 +15,9 @@ void printVector(vector<int>v){
     cin>>size;
     for(int i=0; i<size; i++){
         int value;
+        printVector(v);
         cout<<"Enter index no ["<<i<<"] enter value: ";
         cin>>value;
-        printVector(v);
         v.push_back(value);
     }
     printVector(v);
