@@ -2,6 +2,15 @@
 
 using namespace std;
 
+void print(int *point){
+    cout<<"Pass pointer in function: "<<point<<endl;
+    cout<<"Pass pointer in function: "<<*point<<endl;
+    cout<<"Pass pointer in function: "<<&point<<endl;
+}
+void update(int *point){
+    point=point+1;
+    cout<<"Update point: "<<point<<endl;
+}
 int main(){
     int num=5;
     int a=num;
@@ -38,4 +47,27 @@ int main(){
     cout<<sizeof(ptr)<<endl;
     cout<<sizeof(*ptr)<<endl;
     cout<<sizeof(&ptr)<<endl;
+
+    int ar[10];
+    int *pt=&ar[0];
+    cout<<pt<<endl;
+    pt=pt+1;
+    cout<<pt<<endl;
+
+    int array[5]={1,2,3,4,5};
+    char ch[5]="abcd";
+    cout<<array<<endl;
+    cout<<ch<<endl;
+    char *c=&ch[0];
+    cout<<c<<endl;
+    char tem='z';
+    char *pp=&tem;
+    cout<<pp<<endl;
+
+    int value=5;
+    int *point=&value;
+    print(point);
+    cout<<"Before update: "<<point<<endl;
+    update(point);
+    cout<<"After update: "<<point<<endl;
 }
