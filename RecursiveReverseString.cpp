@@ -15,7 +15,7 @@ void reverseString(string& str, int i, int j){
     reverseString(str, i, j);
 }
 int main(){
-    string s="DevDas";
+    string s="abcde";
     reverseString(s, 0, s.length()-1);
     cout<<s;
     return 0;
