@@ -3,7 +3,8 @@
 using namespace std;
 
 void reachDestination(int start, int destination){
-
+    
+    //Full step start to destination
     cout<<"Start for destination step: "<<start<<" destination: "<<destination<<endl;
 
     //Base case -> Destination
