@@ -16,3 +16,13 @@ class human{
         cout<<"Talking"<<endl;
     }
 };
+//Multiple Inheritance
+class hybrid: public animal, public human{
+
+};
+int main(){
+    hybrid hb;
+    hb.speak();
+    hb.talk();
+    return 0;
+};
