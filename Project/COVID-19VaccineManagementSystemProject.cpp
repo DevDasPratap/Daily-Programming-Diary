@@ -74,7 +74,7 @@ void vaccine ::view_vaccine()
     {
     case 1:
         int m;
-        cout<<"\t Enter number of vaccines you want to add "<<endl;
+        cout<<"\t Enter number of vaccines you want to add ";
         cin>>m;
         f_var=f_var+m;
         file.seekg(0);
@@ -89,7 +89,7 @@ void vaccine ::view_vaccine()
         menu();
     default:
         system("cls");
-        cout<<"\nEnter valid option "<<endl;
+        cout<<"\nEnter valid option ";
         menu();
     }
     file.close();
@@ -160,7 +160,7 @@ void vaccine::search_by_aadhar()
     cout<<"\n\t\t\t*****************************************\n";
     cout<<"\t\t\t\t ADHAR SEARCHING ";
     cout<<"\n\t\t\t*****************************************\n\n";
-    cout<<"Enter your Aadhar number "<<endl;
+    cout<<"Enter your Aadhar number: ";
     fflush(stdin);
     getline(cin,adh_num);
     in.read((char*)this,sizeof(vaccine));
@@ -190,7 +190,7 @@ void vaccine::search_by_age()
     cout<<"\n\t\t\t*****************************************\n";
     cout<<"\t\t\t\t AGE SEARCHING ";
     cout<<"\n\t\t\t*****************************************\n\n";
-    cout<<"enter Age by which you want to search "<<endl;
+    cout<<"Enter Age by which you want to search: ";
     cin>>a;
     show();
     in.read((char*)this,sizeof(vaccine));
@@ -208,7 +208,7 @@ void vaccine::search_by_age()
     {
     cout<<"Age you entered is not found"<<endl;
     }
-    cout<<"\n\n\n\nNO of people vaccinated  by this age"<<p;
+    cout<<"\n\n\n\nNO of people vaccinated  by this age: "<<p;
     in.close();
 
 }
@@ -223,7 +223,7 @@ void vaccine::search_by_profession()
     cout<<"\n\t\t\t*****************************************\n";
     cout<<"\t\t\t\t PROFESSION SEARCHING ";
     cout<<"\n\t\t\t*****************************************\n\n";
-    cout<<"enter Profession by which you want to search "<<endl;
+    cout<<"Enter Profession by which you want to search: ";
     fflush(stdin);
     getline(cin,prof);
     show();
@@ -242,7 +242,7 @@ void vaccine::search_by_profession()
     {
     cout<<"The profession you have Enter does not exist"<<endl;
     }
-    cout<<"\n\n\n NO of people vaccinated by this profession "<<p<<endl;
+    cout<<"\n\n\n NO of people vaccinated by this profession: "<<p;
     in.close();
 }
 void vaccine::search_by_gender()
@@ -256,7 +256,7 @@ void vaccine::search_by_gender()
     cout<<"\n\t\t\t*****************************************\n";
     cout<<"\t\t\t\t GENDER SEARCHING ";
     cout<<"\n\t\t\t*****************************************\n\n";
-    cout<<"Enter gender by which you want to search "<<endl;
+    cout<<"Enter gender by which you want to search: ";
     cin>>g;
     show();
     in.read((char*)this,sizeof(vaccine));
@@ -274,7 +274,8 @@ void vaccine::search_by_gender()
     {
     cout<<"The gender you entered does not exist "<<endl;
     }
-    cout<<"\n\n\n NO. of people vaccinated by this gender "<<p<<endl;
+    cout<<"\n\n\n NO. of people vaccinated by this gender: "<<p<<endl;
+    cout<<"\n\n\n Enter any key to Main Menu: ";
     in.close();
 }
 void vaccine::setdata()
@@ -282,7 +283,7 @@ void vaccine::setdata()
     cout<<"\n\n\t\t\xB3\xB2=\xB2=\xB2-\xB3 VACCINE MANAGEMENT SYSTEM  \xB3\xB2=\xB2=\xB2-\xB3\n\n"<<endl;
     cout<<"\t\t\t\t\t\t Created by --> Pratap Das "<<endl<<endl;
     cout<<"\n\t\t\t*****************************************\n";
-    cout<<"\t\t\t\t ADHAR SEARCHING ";
+    cout<<"\t\t\t\t AADHAAR SEARCHING ";
     cout<<"\n\t\t\t*****************************************\n\n";
     fflush(stdin);
         cout<<"\n\t\t Enter your name :-  ";
