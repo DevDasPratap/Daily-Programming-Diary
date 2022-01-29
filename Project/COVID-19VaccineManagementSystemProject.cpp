@@ -352,7 +352,7 @@ int main()
      int num_vac;
     cout<<"\n\n\t\t\xB3\xB2=\xB2=\xB2-\xB3 VACCINE MANAGEMENT SYSTEM  \xB3\xB2=\xB2=\xB2-\xB3\n\n"<<endl;
     cout<<"\t\t\t\t\t\t Created by --> Pratap Das "<<endl;
-    // cout<<"\t\n\n Press any key to continue.............  "<<endl;
+    cout<<"\t\n\n Press any key to continue.............  "<<endl;
     getch();
     B:
     system("cls");
